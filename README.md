@@ -1,4 +1,4 @@
-# Bootcamp - Computação em Nuvem com a AWS  
+# Bootcamp - Computação em Nuvem com a AWS ☁️
 
 Este repositório reúne minhas anotações, práticas e reflexões durante os estudos sobre **AWS** no bootcamp Code Girls 2025 do Santander em parceria com a DIO.
 O objetivo é consolidar conhecimentos em **infraestrutura em nuvem, gerenciamento de instâncias EC2 e serviços relacionados**, servindo como material de apoio para revisões futuras e aplicações práticas.  
