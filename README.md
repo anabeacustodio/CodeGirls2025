@@ -1,6 +1,6 @@
 <h1 align="center">CodeGirls2025: Formação AWS Cloud Foundations</h1>
 <p align="center">
-  <img src="URL_da_imagem_de_capa" alt="AWS Cloud Foundations" />
+  <img src="https://convergenciadigital.com.br/wp-content/uploads/2023/05/cloud.jpg" alt="Capa do Projeto" width="600"/>
 </p>
 
 ## 📚 Índice
