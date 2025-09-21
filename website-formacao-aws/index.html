@@ -6,7 +6,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Resume - Formação AWS Foundations</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -27,15 +27,16 @@
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Training</a></li>                    
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>                                 
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a></li>                                
                 </ul>
             </div>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
-                    <li class="nav-item">linkedin.com/in/alexsandrolechner</li>
+                    <li class="nav-item">linkedin.com/in/anabeatriz-custodio/</li>
                 </ul>
             </div>
-            <span class="d-none d-lg-block"><img class="img-fluid mx-auto mb-2" src="assets/img/logo.png" alt="..." /></span>
+            <!-- <span class="d-none d-lg-block"><img class="img-fluid mx-auto mb-2" src="assets/img/logo.png" alt="..." /></span> -->
         </nav>
         <!-- Page Content-->
         <div class="container-fluid p-0">
@@ -47,24 +48,64 @@
                         <span class="text-primary">AWS Foundations</span>
                     </h1>                    
                     <div class="subheading mb-5">                        
-                        DevOps Engineer / Platform Engineer - [ AWS | AZURE ]
-                    </br> linkedin.com/in/alexsandrolechner
+                        Frontend Developer | HTML5 | CSS3 | JavaScript | WordPress | Python
+                    </br> linkedin.com/in/anabeatriz-custodio/
                     </div>                    
                     <p class="lead mb-5">
-                        I have over 15 years of experience and have actively participated in several significant projects with large companies. My expertise lies in On-Premises and Cloud Systems Architecture with a specialization in the migration of banking environments (such as Bank Santander, Bank Caixa Economica Federal, and Bank BPI). I am well-versed in a range of technologies, including Java, Python, and MicroServices, and am familiar with DevOps culture and Agile Development. 
+                        I'm an early-career Front-End Developer with a degree in Gastronomy and experience in customer service, administration, and finance. I'm currently expanding my knowledge of Python and Streamlit, studying self-taught, and studying Cloud Computing (AWS) through the Code Girls 2025 Santander/DIO bootcamp.
                         </br></br>    
-                        In addition, I have experience designing, documenting, and testing end-to-end APIs using tools such as API Designer or Swagger Editor, and validating them using Postman. I also have experience designing cloud solutions and managing resources in AWS or Azure Cloud. 
+                        My professional journey reflects adaptability, creativity, and strong problem-solving skills. I have developed personal and academic projects that showcase both technical abilities and attention to detail, including websites, landing pages, and small personal initiatives such as a portion calculator and a financial dashboard.
                         </br></br>
-                        My technical skills extend to Docker and Kubernetes cluster management, utilizing tools such as Rancher, Docker, and Helm. I follow the Azure Governance best practices and have experience implementing and reviewing these practices in projects using Microsoft Cloud Adoption Framework (CAF) and Well-Architected Framework (WAF). 
-                        </br></br>
-                        I have deployed Azure Landing Zones (Azure foundation platform) using Infrastructure-as-Code methods like ARM templates and have implemented Continuous Integration (CI) and Continuous Deployment (CD) with best practices using Azure DevOps, Terraform, and Asinble in build and release pipelines.                    
+                        I am highly motivated to grow in the technology field, combining organizational skills and dedication with a passion for continuous learning and for building solutions that deliver real value.                   
                     </p>
                     <div class="social-icons">
-                        <img src="assets/img/icons1.jpg" alt="..." />                        
+                        <img src="assets/img/icons1.jpg" alt="Logo CG e DIO"/>                        
                     </div>
                 </div>
             </section>
             <hr class="m-0" />           
+            <!-- Training -->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Training</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">AWS Foundations</h3>
+                            <div class="subheading mb-3">Code Girls 2025 - Santander/DIO</div>
+                            <h4>What is What?</h4>
+                            <p>
+                            <b>EC2 (Amazon Elastic Compute Cloud):</b> Think of it as a virtual computer (an "instance") in the AWS cloud. This is where you run your applications and systems.
+
+                            <br /><b>EBS (Amazon Elastic Block Store):</b> This is the "hard drive" for your EC2. It stores data persistently, even if you restart your EC2 instance.
+
+                            <br /><b>S3 (Amazon Simple Storage Service):</b> An "infinite" cloud storage service for files. Great for storing any type of file like images, videos, PDFs, and backups. You store your files in "buckets" (which are like folders).
+
+                            <br /><b>AMI (Amazon Machine Image):</b> A pre-configured template that includes the operating system, application server, and applications required to launch an EC2 instance. It's like a complete snapshot of a server, ready to be deployed.
+
+                            <br /><b>Lambda (AWS Lambda):</b> A "serverless function" that automatically executes code in response to an event. You only pay for the compute time consumed. For example, it can be triggered when a new file is uploaded to S3.
+
+                            <br /><b>EBS Snapshots:</b> These are "point-in-time" copies of your EBS volume, saving the state of the disk at a specific moment. They are stored in S3, making them a great option for backup and disaster recovery.</p>
+
+                            <h4>How do they work together?</h4>
+                            <p>Imagine you want to automatically process spreadsheets:
+
+                            <br />1 - Upload: A user uploads an .xlsx spreadsheet to an S3 bucket.
+
+                            <br />2 - Trigger: S3 detects the new file and triggers an event.
+
+                            <br />3 - Processing: This event activates an AWS Lambda function. The function executes code that reads the spreadsheet and converts it to a .csv file.
+
+                            <br />4 - Storage: The processed .csv file can then be saved back to S3 (for easy and cheap storage) or sent to an EC2 server that uses EBS to store and query the file.
+
+                            <br />In summary, S3 is excellent for general file storage, while EC2 with EBS is ideal for heavier processing and applications that require fast, persistent disk storage.</p>
+
+                            <h4>Visual Architecture</h4>
+                            <img src="assets/img/desafioDiagrama.drawio.png" alt="Diagrama da arquitetura visual" class="img-fluid my-3">
+                        </div>
+        </div>
+    </div>
+</section>
+
             <!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
@@ -72,15 +113,13 @@
                     <div class="subheading mb-3">Programming Languages & Tools</div>
                     <ul class="list-inline dev-icons">
                         <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js"></i></li>
                         <li class="list-inline-item"><i class="fab fa-github"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gitlab"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>                        
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-figma"></i></li>                        
+                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
                         <li class="list-inline-item"><i class="fab fa-aws"></i></li>                        
-                        <li class="list-inline-item"><i class="fab fa-docker"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-jenkins"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-linux"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
                     </ul>
                     <div class="subheading mb-3">Workflow</div>
                     <ul class="fa-ul mb-0">
@@ -90,56 +129,48 @@
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Microsoft Azure
+                            Planning & Research
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Microsoft Azure DevOps
+                            Design & Prototyping
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Infraestrutura como Código (IaC)
+                            Development
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Terraform
+                            Testing & Review
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Ansible
+                            Version Control & Collaboration
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Docker
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Kubernetes
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Shell Script
+                            Deployment & Maintenance
                         </li>
                     </ul>
                 </div>
             </section>
-            <hr class="m-0" />            
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
+            <hr class="m-0" />
+            <!-- Certifications-->
+            <section class="resume-section" id="certifications">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <h2 class="mb-5">Certifications</h2>
                     <ul class="fa-ul mb-0">
                         <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            AWS Certified Solutions Architect – Associate
+                            <span class="fa-li"><i class="fas fa-star text-warning"></i></span>
+                            Git & GitHub - Curso em Vídeo
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Microsoft Certified: Azure Fundamentals
+                            <span class="fa-li"><i class="fas fa-star text-warning"></i></span>
+                            Lógica de Programação com Python - Comunidade Dev Completo
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Oracle Cloud Infrastructure Foundations 2021 Associate
+                            <span class="fa-li"><i class="fas fa-star text-warning"></i></span>
+                            Curso de WordPress - Comunidade Dev Completo
                         </li>
                     </ul>
                 </div>
