@@ -36,19 +36,3 @@ Fluxo de exemplo implementado no laboratório:
 3. **Validação (Choice):** verifica se houve erro ou sucesso.  
 4. **Envio de Notificação (SNS):** em caso de sucesso, envia mensagem de conclusão.  
 5. **Finalização:** encerra o fluxo com sucesso ou erro.
-
-🖼️ **Representação visual (Mermaid):**
-```mermaid
-stateDiagram-v2
-    [*] --> Lambda
-    Lambda --> Choice
-    Choice --> SNS: Sucesso
-    Choice --> Error: Falha
-    SNS --> [*]
-    Error --> [*]
-```
-
-## ✨ Conclusão
-
-O desafio proporcionou uma visão prática de como construir workflows escaláveis, organizados e fáceis de manter, aproveitando todo o ecossistema AWS.
-Foi uma ótima oportunidade para consolidar o uso de Step Functions como ferramenta de integração e automação dentro de arquiteturas serverless.
