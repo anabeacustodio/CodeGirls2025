@@ -1,4 +1,4 @@
-# 🚀 Desafio – AWS Step Functions
+# 🛠️ AWS Step Functions
 
 Este desafio faz parte do módulo **"Serviços Intermediários e Avançados: Explorando Workflows Automatizados com AWS Step Functions"** do Bootcamp **Code Girls 2025 (Santander/DIO)**.  
 O objetivo foi colocar em prática os conceitos de **orquestração de serviços AWS** e **automação de workflows serverless**.
