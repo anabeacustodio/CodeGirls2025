@@ -26,9 +26,9 @@ Este repositório reúne minhas anotações, práticas e reflexões durante os e
 
 ## 📖 Conteúdos Estudados
 
--⁠ ⁠História da AWS.
--⁠ ⁠Infraestrutura global, modelo de negócio e conceitos fundamentais.
--⁠ ⁠Boas práticas de otimização de custos na nuvem.
+- ⁠História da AWS.
+- ⁠Infraestrutura global, modelo de negócio e conceitos fundamentais.
+- ⁠Boas práticas de otimização de custos na nuvem.
 - IAM: usuários, grupos, políticas e controle de acesso  
 - EC2: criação, configuração e segurança de instâncias  
 - EBS: volumes, snapshots e recuperação  
