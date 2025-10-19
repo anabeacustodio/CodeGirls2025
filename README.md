@@ -10,6 +10,7 @@
 - [Conteúdos Estudados](#conteudos-estudados)
 - [Desafio - Intâncias EC2](#desafio-intancias-ec2)
 - [Desafio - AWS Step Functions](#desafio-aws-step-functions)
+- [Desafio - Stack com AWS CloudFormation](#desafio-stack-cloudformation)
 
 ## 🎯 Objetivo
 
@@ -18,6 +19,7 @@ Este repositório reúne minhas anotações, práticas e reflexões durante os e
 ## 🗂️ Estrutura do Repositório
 
 - `desafio-instancias-EC2/`: desenho de arquitetura com S3/Lambda/EC2/EBS, com draw.io
+- `desafio-stack-cloudFormation/`: implementando minha primeira Stack com AWS CloudFormation
 - `desafio-step-functions/`: explorando workflows automatizados com AWS Step Functions
 - `desafios-de-codigo/`: cálculos com liguagens de programação distintas
 - `notes/`: anotações e resumos das aulas
@@ -38,6 +40,7 @@ Este repositório reúne minhas anotações, práticas e reflexões durante os e
 - RDS e DynamoDB: bancos de dados relacional e NoSQL  
 - Lambda, ECS, EKS, SNS, SQS  
 - Step Functions: orquestração e automação de fluxos serverless
+- Gerenciamento e governança aws: CloudWatch, CloudTrail e CloudFormation
 
 ---
 
@@ -80,6 +83,22 @@ O Lambda processa os dados, identifica boletos pagos, novos e com erro de comuni
 - `step-functions.md` anotações sobre o conceito
 
 --- 
+
+## 🧩 Desafio: AWS CloudFormation
+
+Pasta: `desafio-stack-cloudFormation`
+
+O desafio teve como foco criar uma **Stack automatizada** para provisionar recursos na AWS a partir de templates.
+Foi utilizado o formato YAML, por sua legibilidade e suporte a comentários, para definir recursos como buckets S3 com políticas de retenção, acesso privado e ciclo de vida automatizado.
+
+**Objetivo:** 
+Implementar a minha primeira Stack utilizando AWS CloudFormation.
+
+**Arquivos:**
+- `aws-cloudFormation.md` minhas anotações
+- `resolucao.md` resolução do desafio proposto
+
+---
 
 Este repositório vai continuar sendo atualizado conforme avanço no bootcamp, adicionando novos testes, prints e insights.  
 

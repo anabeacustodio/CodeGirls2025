@@ -24,3 +24,11 @@ Isso é o que chamamos de Infraestrutura como Código (IaC).
 | **Parameters** | Campos de entrada que deixam o template mais flexível (por exemplo, escolher o nome de um bucket). |
 | **Outputs** | Valores exibidos ao final da criação (ex.: o nomw do bucket ou o endpoint). |
 | **Policies** | Regras sobre o que deve acontecer quando a stack for excluída ou atualizada. |
+
+---
+
+## ⚖️ Boas práticas
+•	Use YAML em vez de JSON — é mais legível.
+•	Dê nomes descritivos aos recursos (ex.: BucketLogs, BucketBackup).
+•	Sempre defina políticas de exclusão (DeletionPolicy: Retain) para não perder dados críticos.
+•	Utilize Parameters e Outputs para deixar o template reutilizável e informativo.

@@ -53,12 +53,6 @@ No exemplo:
 
 - S3BucketBackups: Cria um segundo bucket S3 (para backups), com configuração parecida. Você pode definir quanrtos recursos quiser na mesma stak - banco de dados, VPCs, funções Lambda, etc.
 
-## ⚖️ Boas práticas
-•	Use YAML em vez de JSON — é mais legível.
-•	Dê nomes descritivos aos recursos (ex.: BucketLogs, BucketBackup).
-•	Sempre defina políticas de exclusão (DeletionPolicy: Retain) para não perder dados críticos.
-•	Utilize Parameters e Outputs para deixar o template reutilizável e informativo.
-
 ## 💬 Insights e Aprendizados
 •	CloudFormation economiza tempo e evita erros humanos ao criar recursos manualmente.
 •	É possível controlar versões da infraestrutura e reutilizar templates com pequenas adaptações.
