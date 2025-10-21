@@ -11,6 +11,7 @@
 - [Desafio - Intâncias EC2](#desafio-intancias-ec2)
 - [Desafio - AWS Step Functions](#desafio-aws-step-functions)
 - [Desafio - Stack com AWS CloudFormation](#desafio-stack-cloudformation)
+- [Desafio - Automatização com AWS CloudFormation](#desafio-automatizacao-cloudformation)
 
 ## 🎯 Objetivo
 
@@ -18,6 +19,7 @@ Este repositório reúne minhas anotações, práticas e reflexões durante os e
 
 ## 🗂️ Estrutura do Repositório
 
+- `desafio-automatizacao-cloudFormation/`: implementando uma infraestrutura automatizada com AWS CLoudFormation
 - `desafio-instancias-EC2/`: desenho de arquitetura com S3/Lambda/EC2/EBS, com draw.io
 - `desafio-stack-cloudFormation/`: implementando minha primeira Stack com AWS CloudFormation
 - `desafio-step-functions/`: explorando workflows automatizados com AWS Step Functions
@@ -96,6 +98,19 @@ Implementar a minha primeira Stack utilizando AWS CloudFormation.
 
 **Arquivos:**
 - `aws-cloudFormation.md` minhas anotações
+- `resolucao.md` resolução do desafio proposto
+
+---
+
+### 🚀 Desafio – AWS CloudFormation: Infraestrutura Automatizada
+
+Neste desafio, foi implementada uma **infraestrutura automatizada com AWS CloudFormation**, utilizando o **sample template LAMP Stack**.  
+
+**Objetivo:**
+Compreender como o CloudFormation automatiza a criação e configuração de recursos AWS, permitindo aplicar o conceito de **Infraestrutura como Código (IaC)** com eficiência, segurança e padronização.
+
+**Arquivos:**
+- `aws-cloudFormation-automatizacao.md` minhas anotações
 - `resolucao.md` resolução do desafio proposto
 
 ---
