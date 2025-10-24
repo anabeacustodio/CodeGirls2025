@@ -12,6 +12,7 @@
 - [Desafio - AWS Step Functions](#desafio-aws-step-functions)
 - [Desafio - Stack com AWS CloudFormation](#desafio-stack-cloudformation)
 - [Desafio - Automatização com AWS CloudFormation](#desafio-automatizacao-cloudformation)
+- [Desafio - Tarefas Automatizadas](#desafio-tarefas-automatizadas)
 
 ## 🎯 Objetivo
 
@@ -102,7 +103,9 @@ Implementar a minha primeira Stack utilizando AWS CloudFormation.
 
 ---
 
-### 🚀 Desafio – AWS CloudFormation: Infraestrutura Automatizada
+## 🚀 Desafio – AWS CloudFormation: Infraestrutura Automatizada
+
+Pasta: `desafio-automatizacao-cloudFormartion`
 
 Neste desafio, foi implementada uma **infraestrutura automatizada com AWS CloudFormation**, utilizando o **sample template LAMP Stack**.  
 
@@ -111,6 +114,26 @@ Compreender como o CloudFormation automatiza a criação e configuração de rec
 
 **Arquivos:**
 - `aws-cloudFormation-automatizacao.md` minhas anotações
+- `resolucao.md` resolução do desafio proposto
+
+---
+
+## Desafio: Tarefas Automatizadas com Lambda Function e S3
+
+Pasta: `desafio-tarefas-automatizadas`
+
+Durante a prática, foi demonstrado como o AWS Lambda executa funções sem a necessidade de gerenciar servidores, respondendo automaticamente a eventos do Amazon S3, como o upload de arquivos, exclusão ou atualização.
+
+**Objetivo:**
+Este laboratório teve como objetivo consolidar os conhecimentos em tarefas automatizadas com AWS Lambda e S3, explorando como ambos os serviços podem trabalhar juntos para otimizar fluxos de trabalho e reduzir tarefas manuais.
+
+**Cenário criado:**
+•	Um bucket S3 armazena planilhas de controle de despesas.
+•	Sempre que uma nova planilha é enviada ao bucket, uma função Lambda é acionada automaticamente.
+•	Essa função faz a leitura do arquivo, valida os dados e gera um relatório de acompanhamento financeiro, que pode ser enviado por e-mail ou armazenado em outro bucket.
+
+**Arquivos:**
+- `lambda.e.s3.md` minhas anotações
 - `resolucao.md` resolução do desafio proposto
 
 ---
