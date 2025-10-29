@@ -19,21 +19,22 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Formação AWS Foundations - alterado</span>
+                <span class="d-block d-lg-none">Formação AWS Foundations</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Training</a></li>                    
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>                 
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a></li>                                
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certification">Certification</a></li>                                
                 </ul>
             </div>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item">linkedin.com/in/anabeatriz-custodio/</li>
+                    </br></br>
+                    <li class="nav-item">github.com/anabeacustodio</li>
                 </ul>
             </div>
             <!-- <span class="d-none d-lg-block"><img class="img-fluid mx-auto mb-2" src="assets/img/logo.png" alt="..." /></span> -->
@@ -49,14 +50,15 @@
                     </h1>                    
                     <div class="subheading mb-5">                        
                         Frontend Developer | HTML5 | CSS3 | JavaScript | WordPress | Python
-                    </br> linkedin.com/in/anabeatriz-custodio/
                     </div>                    
                     <p class="lead mb-5">
-                        I'm an early-career Front-End Developer with a degree in Gastronomy and experience in customer service, administration, and finance. I'm currently expanding my knowledge of Python and Streamlit, studying self-taught, and studying Cloud Computing (AWS) through the Code Girls 2025 Santander/DIO bootcamp.
+                        I'm an early-career Front-End Developer with a degree in Gastronomy and experience in customer service, administration, and finance. I'm currently expanding my knowledge of Python and Streamlit, studying self-taught. I recently completed a course in Cloud Computing (AWS) through the Code Girls 2025 Santander/DIO bootcamp.
                         </br></br>    
                         My professional journey reflects adaptability, creativity, and strong problem-solving skills. I have developed personal and academic projects that showcase both technical abilities and attention to detail, including websites, landing pages, and small personal initiatives such as a portion calculator and a financial dashboard.
                         </br></br>
-                        I am highly motivated to grow in the technology field, combining organizational skills and dedication with a passion for continuous learning and for building solutions that deliver real value.                   
+                        I am highly motivated to grow in the technology field, combining organizational skills and dedication with a passion for continuous learning and for building solutions that deliver real value.
+                        </br></br>
+                        Mail: anabeatriz.custodio.oliveira@gmail.com
                     </p>
                     <div class="social-icons">
                         <img src="assets/img/icons1.jpg" alt="Logo CG e DIO"/>                        
@@ -64,48 +66,7 @@
                 </div>
             </section>
             <hr class="m-0" />           
-            <!-- Training -->
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Training</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">AWS Foundations</h3>
-                            <div class="subheading mb-3">Code Girls 2025 - Santander/DIO</div>
-                            <h4>What is What?</h4>
-                            <p>
-                            <b>EC2 (Amazon Elastic Compute Cloud):</b> Think of it as a virtual computer (an "instance") in the AWS cloud. This is where you run your applications and systems.
-
-                            <br /><b>EBS (Amazon Elastic Block Store):</b> This is the "hard drive" for your EC2. It stores data persistently, even if you restart your EC2 instance.
-
-                            <br /><b>S3 (Amazon Simple Storage Service):</b> An "infinite" cloud storage service for files. Great for storing any type of file like images, videos, PDFs, and backups. You store your files in "buckets" (which are like folders).
-
-                            <br /><b>AMI (Amazon Machine Image):</b> A pre-configured template that includes the operating system, application server, and applications required to launch an EC2 instance. It's like a complete snapshot of a server, ready to be deployed.
-
-                            <br /><b>Lambda (AWS Lambda):</b> A "serverless function" that automatically executes code in response to an event. You only pay for the compute time consumed. For example, it can be triggered when a new file is uploaded to S3.
-
-                            <br /><b>EBS Snapshots:</b> These are "point-in-time" copies of your EBS volume, saving the state of the disk at a specific moment. They are stored in S3, making them a great option for backup and disaster recovery.</p>
-
-                            <h4>How do they work together?</h4>
-                            <p>Imagine you want to automatically process spreadsheets:
-
-                            <br />1 - Upload: A user uploads an .xlsx spreadsheet to an S3 bucket.
-
-                            <br />2 - Trigger: S3 detects the new file and triggers an event.
-
-                            <br />3 - Processing: This event activates an AWS Lambda function. The function executes code that reads the spreadsheet and converts it to a .csv file.
-
-                            <br />4 - Storage: The processed .csv file can then be saved back to S3 (for easy and cheap storage) or sent to an EC2 server that uses EBS to store and query the file.
-
-                            <br />In summary, S3 is excellent for general file storage, while EC2 with EBS is ideal for heavier processing and applications that require fast, persistent disk storage.</p>
-
-                            <h4>Visual Architecture</h4>
-                            <img src="assets/img/desafioDiagrama.drawio.png" alt="Diagrama da arquitetura visual" class="img-fluid my-3">
-                        </div>
-        </div>
-    </div>
-</section>
-
+           
             <!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
@@ -155,23 +116,16 @@
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Certifications-->
-            <section class="resume-section" id="certifications">
+            <!-- Certification-->
+            <section class="resume-section" id="certification">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Certifications</h2>
+                    <h2 class="mb-5">Certification</h2>
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-star text-warning"></i></span>
-                            Git & GitHub - Curso em Vídeo
+                            Santander Code Girls - 2025
                         </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-star text-warning"></i></span>
-                            Lógica de Programação com Python - Comunidade Dev Completo
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-star text-warning"></i></span>
-                            Curso de WordPress - Comunidade Dev Completo
-                        </li>
+                        <img src="assets/img/conclusao.jpg.png" alt="">
                     </ul>
                 </div>
             </section>
