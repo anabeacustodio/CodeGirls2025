@@ -24,9 +24,11 @@ Este repositório reúne minhas anotações, práticas e reflexões durante os e
 - `desafio-instancias-EC2/`: desenho de arquitetura com S3/Lambda/EC2/EBS, com draw.io
 - `desafio-stack-cloudFormation/`: implementando minha primeira Stack com AWS CloudFormation
 - `desafio-step-functions/`: explorando workflows automatizados com AWS Step Functions
-- `desafios-de-codigo/`: cálculos com liguagens de programação distintas
+- `desafio-tarefas-automatizadas/`: 
+- `desafios-de-codigo/`: recursos da AWS; serviços de armazenamento e CDN; cálculo salarial
 - `notes/`: anotações e resumos das aulas
 - `website-formacao-aws/`: modelo de website pessoal
+- `LICENSE/`: MIT
 - `README.md`: documentação completa dos estudos
 
 ## 📖 Conteúdos Estudados
