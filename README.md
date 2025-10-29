@@ -44,6 +44,8 @@ Este repositório reúne minhas anotações, práticas e reflexões durante os e
 - Lambda, ECS, EKS, SNS, SQS  
 - Step Functions: orquestração e automação de fluxos serverless
 - Gerenciamento e governança aws: CloudWatch, CloudTrail e CloudFormation
+- AWS SDK, AWS CLI, AWS CodeDeploy
+- Automação e DevOps: Terraform, Ansible, LocalStack, CI/CD
 
 ---
 
@@ -118,7 +120,7 @@ Compreender como o CloudFormation automatiza a criação e configuração de rec
 
 ---
 
-## Desafio: Tarefas Automatizadas com Lambda Function e S3
+## 🌐 Desafio: Tarefas Automatizadas com Lambda Function e S3
 
 Pasta: `desafio-tarefas-automatizadas`
 
